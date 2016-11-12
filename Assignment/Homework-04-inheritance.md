@@ -44,7 +44,7 @@ class Cat(Pet):
 		self.lives = lives
 
 	def talk(self):
-
+`
 		print('meow!')
 
 	def lose_life(self):
@@ -96,6 +96,10 @@ print(b.a)
 
 # prints 3
 
+```
+
+
+```python
 
 print(f.garply())
 
