@@ -44,7 +44,7 @@ class Cat(Pet):
 		self.lives = lives
 
 	def talk(self):
-`
+
 		print('meow!')
 
 	def lose_life(self):
@@ -70,7 +70,7 @@ class Foo(object):
 	def garply(self):
 
 		return self.baz(self.a)
-
+`
 
 
 class Bar(Foo):
@@ -112,7 +112,9 @@ print(f.garply())
 # the'Bar' class will run 'garply' but Foo will not since 'baz' is not a method in the
 
 #'Foo' class. 
+```
 
+```python
 
 print(b.garply())
 
